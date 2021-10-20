@@ -1,0 +1,33 @@
+{
+  "name": "sc-theme",
+  "displayName": "Split code Theme",
+  "description": "Don't look at anything else, your code is great.",
+  "icon": "s.png",
+  "publisher": "Socram03",
+  "version": "1.0.0",
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/socram03/vscTheme"
+  },
+  "engines": {
+    "vscode": "^1.55.0"
+  },
+  "scripts": {
+    "build": "vsce package"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Split code Theme",
+        "uiTheme": "vs-dark",
+        "path": "./src/sc.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "vsce": "^1.88.0"
+  }
+}
